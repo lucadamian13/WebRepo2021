@@ -1,3 +1,55 @@
 body {
   font-family: arial;
+  font-size: 2vw;
+  font-weight: 400;
+  padding:0px;
+}
+
+p{
+  color:rgb(100,100,100);
+}
+
+h1.red{
+  border: solid rgb(100,100,100) 3px;
+  font-family:"Oswald";
+}
+
+#second{
+  font-weight:bold;
+}
+
+.red{
+  color:red;
+}
+
+hr{
+  border:dashed rgb(256, 110, 65) 3px;
+}
+
+.two{
+  border: solid black 3px;
+  background-color:rgb(256, 110, 65);
+  margin: 80px 0px 80px 0px;
+  padding: 150px 0px 150px 0px;
+ /* top right bottom left */
+
+}
+
+#hero{
+  width: 100vw;
+  margin:-10px;
+  z-index: -1;
+}
+
+#header{
+  height: 50vh;
+  overflow: hidden;
+  position relative;
+
+}
+
+#header h1{
+  position: absolute;
+  height: 100px;
+  z-index: 1;
 }
