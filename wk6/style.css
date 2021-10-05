@@ -1,0 +1,35 @@
+body{
+  padding: 0px;
+  margin:0px;
+}
+
+p{
+  color: red;
+  font-family: helvetica;
+}
+
+h1, h2{
+  font-family: "Rokkitt";
+}
+
+#hero{
+  width:100vw;
+  height:40vh;
+  overflow: hidden;
+  margin:0px;
+  padding: 0px;
+}
+
+#hero img{
+  width:100vw;
+  position: relative;
+  bottom: 200px;
+}
+
+#hero h1{
+  z-index: 1;
+  position: relative;
+  font-size: 10vw;
+  top: 30vh;
+  margin: 0 0 0 10vw;
+}
