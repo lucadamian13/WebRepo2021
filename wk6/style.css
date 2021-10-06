@@ -1,17 +1,22 @@
 body{
   padding: 0px;
   margin:0px;
+  background-color:#195A69;
 }
 
 p{
-  color: red;
-  font-family: helvetica;
+  color: white;
+  font-family: Arial;
 }
 
 h1, h2{
   font-family: "Rokkitt";
+  color: white;
 }
 
+h2{
+  font-size: 40px;
+}
 #hero{
   width:100vw;
   height:40vh;
@@ -30,6 +35,26 @@ h1, h2{
   z-index: 1;
   position: relative;
   font-size: 10vw;
-  top: 30vh;
   margin: 0 0 0 10vw;
+  bottom:-15vh;
+}
+
+#one, #two, #three{
+  margin-left: 10vw;
+  margin-right: 3vw;
+
+}
+
+#three{
+  margin-bottom:20px;
+}
+
+#mybutton, #mybutton2{
+  font-family:"Rokkitt";
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 20px 15px;
+  border-color:white;
+  background-color:#2B9CB5;
+  color: white;
 }
