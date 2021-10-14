@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+<h1 id="qtext">WELCOME TO THE NOT SO NICE QUOTE MACHINE!</h1>
+<button id="newquote">New Quote</button>
+</section>
+
+<script>
+  const quotes = ["I bet you were in great shape when you were younger.", "I always feel more intelligent after reading your work.", "I don’t care what others say about you, “You’re alright in my book.”", "What you lack in intelligence, you make up for with effort.", "It’s really difficult to underestimate you.", "Your new haircut makes your nose look smaller.","You look really nice in this light."];
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click",buttonClicked);
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    console.log(quotecount);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>=6){
+      quotecount = 0;
+    }else{
+    quotecount += 1;
+  }
+}
+</script>
+
+
+</body>
+
+</html>
