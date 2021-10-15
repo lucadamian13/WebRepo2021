@@ -6,11 +6,6 @@ section{
     font-family:"Parisienne";
 }
 
-button{
-  border-radius:8px;
-  padding: 1vh 2vw;
-}
-
 body{
   font-family:"Parisienne";
   font-size: 30px;
@@ -27,4 +22,5 @@ button{
   border-style: none;
   font-weight:bold;
   text-align:center;
+  padding: 1vh 2vw;
 }
