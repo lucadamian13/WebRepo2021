@@ -1,0 +1,33 @@
+#tabs{
+  display: flex;
+  margin: 20vh 10vw 0 10vw;
+
+}
+
+#vent{
+  display: flex;
+  margin: 0vh 10vw 0 10vw;
+}
+
+.feeling{
+  flex-grow: 1;
+  border: 1px solid black;
+}
+
+#image, .page{
+  flex-grow: 1;
+  width: auto;
+  background-color: blue;
+  border: 1px solid black
+}
+
+h2{
+  margin-top:20px;
+  padding-bottom: 0px;
+  align: auto;
+  font-size: 200%;
+}
+
+#badpage, #uglypage{
+  display: none;
+}
