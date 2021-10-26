@@ -3,9 +3,25 @@ section{
     margin: 30vh 20vw;
     padding: 10vh 10vw;
     border-radius: 20px;
+    font-family:"Parisienne";
+}
+
+body{
+  font-family:"Parisienne";
+  font-size: 30px;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
 }
 
 button{
-  border-radius:8px;
+  font-family:"Parisienne";
+  font-size: 50px;
+  border: 0px;
+  background-color: white;
+  border-style:solid;
+  font-weight:bold;
+  text-align:center;
   padding: 1vh 2vw;
+  border-radius: 20px;
 }
