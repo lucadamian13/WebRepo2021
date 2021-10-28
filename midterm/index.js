@@ -28,6 +28,7 @@ function setActive(e){
   }
 
   feelingpick = document.getElementsByClassName('active')[0].id;
+  
   document.getElementById(feelingpick + "page").style.display = "block";
   document.getElementById('image').innerHTML = "<img src='assets/" + feelingpick + ".gif' >";
 
