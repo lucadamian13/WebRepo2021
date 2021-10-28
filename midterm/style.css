@@ -1,47 +1,57 @@
 body{
   background-color: #A8D0E6;
   color: #FFFFFF;
-  border-color:#F76C6C;
+  font-family: 'PT Sans Narrow';
+  font-weight:normal;
+  /* border-color:#F76C6C; */
 }
 #header{
   text-align:center;
   margin: 50px 0 0 0;
-  font-size:30px;
+  font-size:50px;
 }
 #footer{
   text-align:center;
   margin: 50px 0 0 0;
-  font-size:15px;
+  font-size:25px;
 }
 
 #tabs{
   display: flex;
-  margin: 20vh 10vw 0 10vw;
-  border-bottom:none;
-  border-color:#F76C6C;
+  margin: 10vh 10vw 0 10vw;
   background-color:#FFCA86;
   text-align: center;
 }
 
-
 #vent{
   display: flex;
   margin: 0vh 10vw 0 10vw;
-  border-top: none;
-  border-radius:0;
+  /* border-top: none; */
+  /* border-width: 3px; */
   text-align: center;
 }
 
 .feeling{
   flex-grow: 1;
-  border: 1px solid #F76C6C;
+  border: 3px solid #F76C6C;
   text-align: center;
+}
+
+#image{
+  border: 3px solid #F76C6C;
+  border-right: 0px;
+  border-top:0px;
+}
+
+.page{
+  border: 3px solid #F76C6C;
+  border-left: 0px;
+  border-top:0px;
 }
 
 #image, .page{
   flex-grow: 1;
   background-color: #FFCA86;
-  border: 1px solid #F76C6C;
   width: 30vw;
   max-height: 80%;
   object-fit: cover;
@@ -59,9 +69,17 @@ h2{
   font-size: 200%;
 }
 
+h3{
+  margin:30px 0 30px 0;
+  font-size:27px;
+}
+
+h4{
+  font-size:25px;
+}
+
 #Badpage, #Uglypage{
   display: none;
-  border-radius: 0;
   text-align: center;
 }
 
@@ -79,12 +97,22 @@ textarea{
   rows="2"
   cols="50"
   text-align: center;
+  background-color:#F76C6C;
+  color:white;
 }
 
 .active{
   border-bottom:none;
-  
   border-color:#F76C6C;
-  border-width: 0px;
+  border-width: 3px;
   text-align: center;
+}
+
+#clear{
+  background-color:#FFCA86;
+  color: white;
+  font-size: 100px;
+  font-family: 'PT Sans Narrow';
+  font-weight:normal;
+  border: 3px solid #F76C6C;
 }

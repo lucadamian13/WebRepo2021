@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-  <title>Good, bad, and the ugly</title>
+  <title>Good, Bad, and the Ugly</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow">
 </head>
 <body>
   <section id ="header">
-    <h1>Vent the Good Bad and the Ugly of your day!<h1>
+    <h1>Good, Bad, and the Ugly<h1>
+    <h4>This is your space to vent the good, bad, and the ugly of your day!</h4>
   </section>
   <section id ="tabs">
     <div class="feeling">
@@ -23,7 +25,7 @@
     <div id="Goodpage" class="page active">
       <div id="goodinput">
         <h3>These things were good today!</h3>
-        <textarea id="feelingvent" name="feelingvent">
+        <textarea id="feelingventgood" name="feelingvent">
         </textarea>
       </div>
     </div>
@@ -31,22 +33,23 @@
     <div id="Badpage" class="page">
       <div id="badinput">
         <h3>These things were bad today</h3>
-        <textarea id="feelingvent" name="feelingvent">
+        <textarea id="feelingventbad" name="feelingvent">
         </textarea>
       </div>
     </div>
 
     <div id="Uglypage" class="page">
       <div id="uglyinput">
-        <h3>Anything realllyyy ugly that you have to get off your chest?</h3>
-        <textarea id="feelingvent" name="feelingvent">
+        <h3>Anything realy ugly that you have to get off your chest?</h4>
+        <textarea id="feelingventugly" name="feelingvent">
         </textarea>
       </div>
     </div>
   </section>
   <section id ="footer">
-    <h1>When you are all done venting your feelings, press the button to wipe away your stress<h1>
-    <button id ="wipe"> Wipe </button>
+    <h4>When you are all done venting your feelings, press the button to wipe away your stress<h3>
+    <!-- <button id ="wipe"> Wipe </button> -->
+    <input type="button" value="Wipe" id="clear">
   </section>
 <script type ="text/javascript" src="index.js"></script>
 </body>

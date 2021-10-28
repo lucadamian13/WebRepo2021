@@ -1,6 +1,6 @@
 let feeling = ["Good", "Bad", "Ugly"];
-let images = ["Good.gif", "Bad.gif", "Ugly.gif"]
-let prevfeeling;
+let images = ["Good.jpg", "Bad.jpg", "Ugly.jpg"]
+
 
 
 for (i=0; i<document.getElementsByClassName("feeling").length; i++){
@@ -13,7 +13,6 @@ document.getElementById("Good").classList.toggle('active');
 document.getElementById("image").innerHTML = "<img src='assets/" + images[0] + "' >";
 
 function setActive(e){
-
   prevfeeling = document.getElementsByClassName("active")[0].id;
   if (prevfeeling != undefined){
     document.getElementById(prevfeeling).classList.toggle("active");
@@ -22,14 +21,24 @@ function setActive(e){
 
   if(e.target.tagName == "H2"){
     e.target.parentNode.classList.toggle('active');
-
   }else{
     e.target.classList.toggle('active');
   }
 
   feelingpick = document.getElementsByClassName('active')[0].id;
-  
+
   document.getElementById(feelingpick + "page").style.display = "block";
-  document.getElementById('image').innerHTML = "<img src='assets/" + feelingpick + ".gif' >";
+  document.getElementById('image').innerHTML = "<img src='assets/" + feelingpick + ".jpg' >";
 
 }
+
+This section allows for all  
+var input = document.querySelector('#clear');
+var goodarea = document.querySelector('#feelingventgood');
+var badarea = document.querySelector('#feelingventbad');
+var uglyarea = document.querySelector('#feelingventugly');
+input.addEventListener('click', function () {
+    goodarea.value = '';
+    badarea.value = '';
+    uglyarea.value = '';
+}, false);
