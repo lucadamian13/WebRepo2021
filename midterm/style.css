@@ -3,7 +3,6 @@ body{
   color: #FFFFFF;
   font-family: 'PT Sans Narrow';
   font-weight:normal;
-  /* border-color:#F76C6C; */
 }
 #header{
   text-align:center;
@@ -26,8 +25,6 @@ body{
 #vent{
   display: flex;
   margin: 0vh 10vw 0 10vw;
-  /* border-top: none; */
-  /* border-width: 3px; */
   text-align: center;
 }
 
@@ -90,13 +87,13 @@ h4{
 
 textarea{
   height:auto;
-  display:flex;
+  display:block;
   resize:vertical-auto;
   width:100%;
   box-sizing:border-box;
   rows="2"
   cols="50"
-  text-align: center;
+  text-align:inherit;
   background-color:#F76C6C;
   color:white;
 }
