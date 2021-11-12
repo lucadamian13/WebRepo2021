@@ -1,7 +1,19 @@
+@media screen and (min-width: 700px){
+#headshot{
+  height:20%;
+}
+}
+
+@media screen and (max-width: 700px){
+#headshot{
+  height:20%;
+}
+}
+
 body {
   background-color:#Ffc1b2;
   color:#69774c;
-  font-family: Rokkitt;
+  font-family:Rokkitt;
   font-size:20px;
 }
 #about{
@@ -40,26 +52,26 @@ p{
   border-radius:20px;
   text-align:center;
   margin-bottom:5px;
+  font-family:Rokkitt;
+
 }
 
 
-#img{
-
-  height: 50vh;
-  margin-left:-10px;
-  margin-bottom:5px;
-  position:relative;
+#headshot{
+  /* height: 800px;
+  width: 400px; */
+  margin:5px;
+  position:absolute;
   top:0px;
   bottom:0px;
-
-  display: block;
+  display: flex;
+  justify-content: center;
   position: relative;
   overflow: hidden;
-  width: 100vw;
 }
 
-#img img{
+/* #img img{
   width:100vw;
   top:-400px;
   position:absolute;
-}
+} */
