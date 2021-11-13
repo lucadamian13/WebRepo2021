@@ -1,13 +1,22 @@
-@media screen and (min-width: 700px){
-#headshot{
-  height:20%;
+@media screen and (max-width: 770px){
+  #lucaimg{
+  height:70vw;
 }
+  #top h1{
+  font-size: 60px;
 }
-
-@media screen and (max-width: 700px){
-#headshot{
-  height:20%;
+  #about h2{
+  font-size:55px;
 }
+  #about h3{
+  font-size:50px;
+}
+  #about ul{
+  font-size:40px;
+  }
+  #about p{
+  font-size:40px;
+  }
 }
 
 body {
@@ -16,14 +25,7 @@ body {
   font-family:Rokkitt;
   font-size:20px;
 }
-#about{
-  background-color:#e8b1a4;
-  border-style:solid;
-  border-width:9px;
-  padding: 50px;
-  border-radius:20px;
-  font-family: Rokkitt;
-}
+
 a{
   color:#fff6f4;
   font-size:48px;
@@ -46,7 +48,7 @@ p{
 
 
 #top{
-  margin-left:0px;
+  margin-left:10px;
   border-style:solid;
   border-width:9px;
   border-radius:20px;
@@ -56,22 +58,37 @@ p{
 
 }
 
-
 #headshot{
-  /* height: 800px;
-  width: 400px; */
-  margin:5px;
-  position:absolute;
-  top:0px;
-  bottom:0px;
-  display: flex;
+  margin-left:10px;
+  margin-bottom: 10px;
+  display:flex;
   justify-content: center;
-  position: relative;
   overflow: hidden;
 }
 
-/* #img img{
-  width:100vw;
-  top:-400px;
-  position:absolute;
-} */
+#about{
+  margin-left: 10px;
+  background-color:#e8b1a4;
+  border-style:solid;
+  border-width:9px;
+  padding: 50px;
+  border-radius:20px;
+  font-family: Rokkitt;
+}
+
+#grid{
+  margin-top: 10px;
+  margin-left: 10px;
+  border-style:solid;
+  border-width:9px;
+  padding: 50px;
+  border-radius:20px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pic{
+  width:50%;
+}
