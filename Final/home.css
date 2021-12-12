@@ -1,6 +1,30 @@
 #nav{
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
+
+body{
+  font-family: 'PT Mono', monospace;
+}
+
+button{
+  font-family: 'PT Mono', monospace;
+  border-width: 1px;
+}
+
+#name-home{
+  padding-left: 10px;
+  width: 220px;
+  background-color:#ffcf52;
+}
+
+button:hover{
+  background-color: #52FF63;
+}
+
+#name-home:hover{
+  background-color: #52FF63;
+}
+
 .corousel{
 
   position: relative;
